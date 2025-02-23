@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Estou em 22 servidores", "sam-bot.xyz"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'dnd', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
