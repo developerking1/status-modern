@@ -19,7 +19,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🧶 | /ajuda • sam-bot.xyz", "🎶 | Me adicione no seu servidor " ];
+const statusMessages = ["🧶 | /ajuda • sam-bot.xyz", "🎶 | Me adicione no seu servidor ", "📆 | Resgate o seu daily"];
 const statusTypes = [ 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
