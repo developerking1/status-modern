@@ -20,7 +20,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🧶 | /ajuda • sam-bot.xyz", "🎶 | Me adicione no seu servidor ", "📆 | Resgate o seu daily", "👤 | Estou a divertir e ajudar +70k usuários", "🫐 | Você é uma pessoa incrível", "✨️| Servidor de Suporte no Perfil"];
-const statusTypes = [ 'online', 'online'];
+const statusTypes = [ 'dnd', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
