@@ -48,4 +48,4 @@ app.listen(PORT, () => {
 });
 
 // Login do bot no Discord
-client.login(process.env.DISCORD_TOKEN);
+client.login(TOKEN);
